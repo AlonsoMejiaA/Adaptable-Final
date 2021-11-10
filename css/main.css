@@ -1,0 +1,54 @@
+body{
+	
+	background-image: url(../img/fondo_sitio.jpg);
+	font-family: sans-serif;
+	text-align: center;
+        
+}
+.boton{
+        margin-top: 7%;
+	text-align: center;
+	width: 70%;
+	height: 75px;
+	color: white;
+	border-radius: 15px;
+	border: 3px solid white;
+        font-size: 30px;
+}
+img{    display:block;
+        margin:auto;
+	margin-top:7%;
+       
+        width:50%;
+        display:block;       
+        margin:auto;
+	margin-top: 20px;
+        max-width:360px;
+        min-width:250px;
+  
+}
+#btn_ingresar,#btn_confirmar,#btn_siguiente,#btn_no,#btn_aceptar{
+	margin-top: 7%;
+	background-color: #2d476f;
+}
+#btn_si{
+        background-color: #7fd839;
+}
+#btn_sos{
+        margin:auto;
+	margin-top: 7%;      
+	background-color: #a40f0f;
+	font-size: 40px;
+        width: 100%;
+	height: 100px;
+       
+}
+#btn_mas_recomendaciones{
+        min-width:255px;
+        background-color: #3cb6b6;
+}
+
+#flecha{
+        max-width:150px;
+        min-width:100px;
+}
