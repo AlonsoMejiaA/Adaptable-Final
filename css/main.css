@@ -6,7 +6,7 @@
 		grid-row-gap: 0px;
 		}
 			
-.imagenes { grid-area: 1 / 1 / 3 / 6; }
+.imagenes { grid-area: 1 / 2 / 3 / 5;}
 .div1 {grid-area: 4/2/5/5;}
 #div2 { grid-area: 5 / 1 / 6 / 6; }
 .div_sos{grid-area: 5/2/6/6;}
