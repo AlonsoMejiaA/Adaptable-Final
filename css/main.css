@@ -1,3 +1,14 @@
+.parent {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		grid-template-rows: repeat(5, 1fr);
+		grid-column-gap: 0px;
+		grid-row-gap: 0px;
+		}
+			
+		#div1 { grid-area: 1 / 2 / 3 / 3; }
+		#div2 { grid-area: 1 / 4 / 1 / 4; }
+
 body{
 	
 	background-image: url(../img/fondo_sitio.jpg);
@@ -5,16 +16,6 @@ body{
 	text-align: center;
         
 }
-.parent {
-display: grid;
-grid-template-columns: repeat(5, 1fr);
-grid-template-rows: repeat(5, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-}
-	
-#div1 { grid-area: 1 / 2 / 3 / 3; }
-#div2 { grid-area: 1 / 4 / 1 / 4; }
 .boton{
         margin-top: 7%;
 	text-align: center;
