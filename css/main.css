@@ -18,7 +18,7 @@ body{
         
 }
 .boton{
-        margin-top: 7%;
+        margin-top: 5%;
 	text-align: center;
 	width: 70%;
 	height: 75px;
@@ -40,7 +40,7 @@ img{    display:block;
   
 }
 #btn_ingresar,#btn_confirmar,#btn_siguiente,#btn_no,#btn_aceptar{
-	margin-top: 7%;
+	
 	background-color: #2d476f;
 }
 #btn_si{
@@ -48,7 +48,7 @@ img{    display:block;
 }
 #btn_sos{
         margin:auto;
-	margin-top: 7%;      
+	     
 	background-color: #a40f0f;
 	font-size: 40px;
         width: 100%;
